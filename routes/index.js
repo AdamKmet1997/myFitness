@@ -19,6 +19,9 @@ router.get('/training', function (req, res) {
   res.render('training')
 })
 
-router.get('/plan', function (req, res) {
-  res.render('plan')
+router.get('/recipes', function (req, res) {
+  res.render('recipes')
+})
+router.get('/story', function (req, res) {
+  res.render('story')
 })
