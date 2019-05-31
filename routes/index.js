@@ -19,6 +19,6 @@ router.get('/training', function (req, res) {
   res.render('training')
 })
 
-router.get('/plam', function (req, res) {
+router.get('/plan', function (req, res) {
   res.render('plan')
 })
