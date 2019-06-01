@@ -22,6 +22,11 @@ router.get('/training', function (req, res) {
 router.get('/recipes', function (req, res) {
   res.render('recipes')
 })
+
 router.get('/story', function (req, res) {
   res.render('story')
+})
+
+router.get('/about', function (req, res) {
+  res.render('about')
 })
