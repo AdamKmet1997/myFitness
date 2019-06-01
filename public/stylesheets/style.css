@@ -75,13 +75,51 @@ margin-left: 40%;
   .card-rec, .rec{
     margin-left: 40%;
     }
- }
+  }
 
  @media (min-width: 1200px) { 
   .card-rec, .rec{
     margin-left: 40%;
     }
   }
+  @media (max-width: 576px) { 
+    .navbar{
+      box-shadow: 10px 10px 5px white;
+    }
+    .img-fluid{
+      box-shadow: 10px 10px 5px white;
+      width:100%;
+    }
+    
+    #sticky-footer{
+      box-shadow: 10px 10px 5px white;
+      position: relative;
+      bottom: 0; 
+    }
+    .card-group{
+      margin-top: 1em;
+      box-shadow: 10px 10px 5px white;
+    }
+   }
+   @media (max-width: 768px) { 
+    .navbar{
+      box-shadow: 10px 10px 5px white;
+    }
+    .img-fluid{
+      box-shadow: 10px 10px 5px white;
+      width:100%;
+    }
+    .card-group{
+      margin-top: 1em;
+      box-shadow: 10px 10px 5px white;
+    }
+    #sticky-footer{
+      box-shadow: 10px 10px 5px white;
+      position: relative;
+      bottom: 0; 
+    }
+    }
+
 
 .container-fluid{
   margin-top: 2em;
